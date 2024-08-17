@@ -252,3 +252,7 @@ a {
     margin-right: auto;
   }
 }
+/* 
+.accordion-button:not(.collapsed) {
+  background-color: #f9954d;
+} */
