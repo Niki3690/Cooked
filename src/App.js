@@ -8,6 +8,8 @@ import SinglePage from "./Pages/SinglePage";
 import Contact from "./Pages/Contact";
 import Footer from "./Pages/Footer";
 import FAQ from "./Pages/FAQ";
+import Facilities from "./Pages/Facilities";
+import Blogs from "./Pages/Blogs";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
           <Route path="item/:id" element={<SinglePage />} />
           <Route path="contact" element={<Contact />} />
           <Route path="faq" element={<FAQ />} />
+          <Route path="facilities" element={<Facilities />} />
+          <Route path="blogs" element={<Blogs />} />
         </Routes>
         <Footer />
       </BrowserRouter>

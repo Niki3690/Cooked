@@ -61,6 +61,14 @@ const Navbar = () => {
                 <li class="nav-item">
                   <Link to="faq" class="nav-link fs-4 text-black fw-bold  ms-4" aria-disabled="true">FAQ</Link>
                 </li>
+
+                <li class="nav-item">
+                  <Link to="facilities" class="nav-link fs-4 text-black fw-bold  ms-4" aria-disabled="true">Facilities</Link>
+                </li>
+
+                <li class="nav-item">
+                  <Link to="blogs" class="nav-link fs-4 text-black fw-bold  ms-4" aria-disabled="true">Blogs</Link>
+                </li>
               </ul>
             </div>
           </div>
