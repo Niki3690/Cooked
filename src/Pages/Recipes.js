@@ -31,6 +31,8 @@ const Recipes = () => {
                     Iure, accusantium.
                   </h5>
                 </Link>
+
+                <button className="adddd">Add To Cart</button>
               </div>
             </div>
           );
