@@ -5,7 +5,7 @@ const FAQ = () => {
         <div>
             <div className='container'>
                 <h3 className="text-center mt-5 fw-bold mb-5">
-                    Frequently Asked Questions (FAQ)
+                    Frequently Asked Questions (FAQ-PAGE)
                 </h3>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">

@@ -4,9 +4,10 @@ import { useEffect } from "react";
 const Contact = () => {
     useEffect(() => {
         document.title = "Cooked_Contact"
-      }, [])
+    }, [])
     return (
         <>
+            <h3 className="text-center mt-5 fw-bold mb-5">CONTACT-PAGE</h3>
             <div className="container mt-5">
                 <div>
                     <iframe
@@ -165,7 +166,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-          
+
         </>
     );
 };
