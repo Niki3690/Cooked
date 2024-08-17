@@ -57,6 +57,10 @@ const Navbar = () => {
                 <li class="nav-item">
                   <Link to="contact" class="nav-link fs-4 text-black fw-bold  ms-4" aria-disabled="true">Contact</Link>
                 </li>
+
+                <li class="nav-item">
+                  <Link to="faq" class="nav-link fs-4 text-black fw-bold  ms-4" aria-disabled="true">FAQ</Link>
+                </li>
               </ul>
             </div>
           </div>

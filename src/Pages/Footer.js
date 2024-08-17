@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   useEffect(() => {
@@ -58,16 +59,16 @@ const Footer = () => {
           <div className="col-lg-2 col-md-6 col-sm-12">
             <ul className="snsn">
               <li>
-                <a href="#">About Us</a>
+                <Link to="about"><a href="#">About Us</a></Link>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <Link to="contact"><a href="#">Contact Us</a></Link>
               </li>
               <li>
-                <a href="#">Support</a>
+                <Link to="cart"><a href="#">cart</a></Link>
               </li>
               <li>
-                <a href="#">Recorces</a>
+                <Link to="home"><a href="#">Home</a></Link>
               </li>
             </ul>
           </div>

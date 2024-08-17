@@ -7,6 +7,7 @@ import Cart from "./Pages/Cart";
 import SinglePage from "./Pages/SinglePage";
 import Contact from "./Pages/Contact";
 import Footer from "./Pages/Footer";
+import FAQ from "./Pages/FAQ";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="cart" element={<Cart />} />
           <Route path="item/:id" element={<SinglePage />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="faq" element={<FAQ />} />
         </Routes>
         <Footer />
       </BrowserRouter>
