@@ -10,6 +10,8 @@ import Footer from "./Pages/Footer";
 import FAQ from "./Pages/FAQ";
 import Facilities from "./Pages/Facilities";
 import Blogs from "./Pages/Blogs";
+import ErrorPage from "./Pages/ErrorPage";
+import LoginLogout from "./Pages/LoginLogout";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
           <Route path="faq" element={<FAQ />} />
           <Route path="facilities" element={<Facilities />} />
           <Route path="blogs" element={<Blogs />} />
+          <Route path="loginlogout" element={<LoginLogout />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

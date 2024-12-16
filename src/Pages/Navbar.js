@@ -69,6 +69,10 @@ const Navbar = () => {
                 <li class="nav-item">
                   <Link to="blogs" class="nav-link fs-4 text-black fw-bold  ms-4" aria-disabled="true">Blogs</Link>
                 </li>
+
+                <li class="nav-item">
+                  <Link to="loginlogout" class="nav-link fs-4 text-black fw-bold  ms-4" aria-disabled="true">Login</Link>
+                </li>
               </ul>
             </div>
           </div>

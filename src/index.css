@@ -270,3 +270,24 @@ a {
   background-color: black;
   color: #f9954d;
 }
+
+.active {
+  background-color: black !important;
+  color: #f9954d !important;
+  border: none !important;
+}
+
+.btn1 {
+  background-color: #f9954d;
+}
+
+input {
+  border: 2px solid #f9954d !important;
+}
+
+
+.shadoww{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
